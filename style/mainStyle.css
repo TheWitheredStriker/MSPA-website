@@ -65,6 +65,13 @@ nav li a {
     margin-bottom: 25px !important;
 }
 
+nav li a.active {
+    color: #c89875;
+    cursor: auto;
+    pointer-events: none;
+    border-bottom: 7px solid black;
+}
+
 /* Header image */
 nav img {
 	display: inline-block;
