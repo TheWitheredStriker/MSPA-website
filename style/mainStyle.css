@@ -42,9 +42,9 @@ a:hover {
 nav {
     background: green;
     border: 15px ridge orange;
+	border-radius: 20px;
     line-height: 1em;
     display: flex;
-	border-radius: 20px;
 }
 
 nav ul {
