@@ -44,6 +44,7 @@ nav {
     border: 15px ridge orange;
     line-height: 1em;
     display: flex;
+	border-radius: 20px;
 }
 
 nav ul {
