@@ -1,0 +1,74 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Rubik&display=swap');
+
+@font-face {
+	font-family: "Open Dyslexic";
+	src: url(../font/OpenDyslexic3-Regular.ttf) format("truetype");
+}
+
+/* Main font */
+body {
+	font-family: "Andika", "Rubik", "Trebuchet MS", "Tahoma", "Verdana", sans-serif;
+	line-height: 1.1em;
+	background: linear-gradient(
+        to right,
+        rgba(218, 221, 152, .965),
+        rgba(209, 240, 192, .94),
+        rgba(218, 221, 152, .965)
+    ), url(https://static.tvtropes.org/pmwiki/pub/images/mspa_square2.png);
+}
+
+/* Links */
+a {
+	text-decoration: none;
+    transition: all linear 300ms;
+    -ms-transition: all linear 300ms;
+    -o-transition: all linear 300ms;
+    -moz-transition: all linear 300ms;
+    -webkit-transition: all linear 300ms;
+    -khtml-transition: all linear 300ms;
+    text-shadow: 0    25px 2.5px transparent,
+                 0   -25px 2.5px transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+    text-shadow: 2px 2px 2px rgba(140, 60, 30, .4),
+                 2px 2px 2px rgba(140, 60, 30, .4);
+}
+
+/* Nav */
+nav {
+    background: green;
+    border: 15px ridge orange;
+    line-height: 1em;
+    display: flex;
+}
+
+nav ul {
+	list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li a {
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+    font-family: "Open Dyslexic";
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+/* Header image */
+nav img {
+	display: inline-block;
+	height: 50px;
+	width: 170px;
+	border: 5px ridge black;
+    vertical-align: center;
+}
