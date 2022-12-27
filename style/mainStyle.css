@@ -15,7 +15,8 @@ body {
         rgba(218, 221, 152, .965),
         rgba(209, 240, 192, .94),
         rgba(218, 221, 152, .965)
-    ), url(https://static.tvtropes.org/pmwiki/pub/images/mspa_square2.png);
+    ), url(../images/pattern-mspa.png);
+    background-size: 20vw;
 	cursor: url(/images/cursor-space.png), auto;
 }
 
