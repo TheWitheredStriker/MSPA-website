@@ -99,3 +99,18 @@ nav img {
 	border: 5px ridge black;
     vertical-align: center;
 }
+
+/* Webkit scrollbar */
+::-webkit-scrollbar {
+    background: white;
+    border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CBB17;
+    border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: lime;
+}
