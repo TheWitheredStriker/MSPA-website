@@ -1,0 +1,10 @@
+.characters-homestuck h2 {
+	font-family: "Press Start 2P";
+}
+
+.characters-problemSleuth h2 {
+	font-family: "Rialto";
+    -webkit-text-stroke: unset !important;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
