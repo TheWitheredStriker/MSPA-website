@@ -1,3 +1,8 @@
+img[src*="icon-"] {
+	height: 40px;
+	width: 40px;
+}
+
 .characters-homestuck h2 {
 	font-family: "Press Start 2P";
 }
