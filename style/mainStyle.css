@@ -22,7 +22,7 @@ body {
         rgba(218, 221, 152, .965)
     ), url(../images/pattern-mspa.png);
     background-size: 20vw;
-	cursor: url(/images/cursor-space.png), auto;
+    cursor: url(/images/cursor-space.png), auto;
 }
 
 /* Headers */
@@ -38,7 +38,7 @@ h2 {
 
 /* Links */
 a {
-	text-decoration: none;
+    text-decoration: none;
     transition: all linear 300ms;
     -ms-transition: all linear 300ms;
     -o-transition: all linear 300ms;
@@ -61,13 +61,13 @@ a:hover {
 nav {
     background: green;
     border: 15px ridge orange;
-	border-radius: 20px;
+    border-radius: 20px;
     line-height: 1em;
     display: flex;
 }
 
 nav ul {
-	list-style: none;
+    list-style: none;
     text-align: left;
     display: flex;
     justify-content: space-around;
@@ -93,10 +93,10 @@ nav li a.active {
 
 /* Header image */
 nav img {
-	display: inline-block;
-	height: 50px;
-	width: 170px;
-	border: 5px ridge black;
+    display: inline-block;
+    height: 50px;
+    width: 170px;
+    border: 5px ridge black;
     vertical-align: center;
 }
 

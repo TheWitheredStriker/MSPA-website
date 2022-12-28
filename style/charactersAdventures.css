@@ -9,7 +9,7 @@ article {
 	border-radius: 5px;
 	padding: 3rem;
 	margin-top: 2rem;
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 	font-size: 1.07em;
 }
 
@@ -45,8 +45,8 @@ article section p {
 article section img {
 	width: 300px;
 	height: 300px;
-    object-fit: cover;
-    object-position: center;
+	object-fit: cover;
+	object-position: center;
 	border: 10px ridge goldenrod;
 	border-radius: 25px;
 	transition: all linear 300ms;
