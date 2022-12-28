@@ -114,3 +114,19 @@ nav img {
 ::-webkit-scrollbar-thumb:hover {
     background: lime;
 }
+
+/* Text highlight colour */
+::selection {
+    background: white;
+    color: black;
+}
+
+::-moz-selection {
+    background: white;
+    color: black;
+}
+
+::-webkit-selection {
+    background: white;
+    color: black;
+}
