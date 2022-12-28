@@ -56,6 +56,14 @@ article section img {
 	background-color: rgba(255, 255, 255, .85);
 }
 
+article:first-of-type section img {
+    object-position: left;
+}
+
+article:nth-of-type(2) section img {
+    object-position: right;
+}
+
 article:nth-child(odd) section {
     flex-direction: row-reverse;
 }
