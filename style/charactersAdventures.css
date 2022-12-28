@@ -80,3 +80,7 @@ article:nth-of-type(3) h2 {
     font-weight: bold;
     text-shadow: 3px 3px 3px black;
 }
+
+article:nth-of-type(4) h2 {
+	font-family: "Press Start 2P";
+}
