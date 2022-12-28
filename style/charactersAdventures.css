@@ -1,0 +1,82 @@
+/* Articles */
+article {
+	background: linear-gradient(
+		rgba(13, 150, 38, 0.4),
+        rgba(34, 149, 14, 0.4)
+	);
+	border: 10px groove orangered;
+	border-radius: 15px;
+	border-radius: 5px;
+	padding: 3rem;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+	font-size: 1.07em;
+}
+
+article section {
+    display: flex;
+    flex-direction: row;
+}
+
+article .textContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.textContainer p:first-of-type {
+	font-weight: bold;
+	font-size: 1.15em;
+}
+
+article h2 {
+	margin-top: 0;
+}
+
+article section p, article section img {
+	display: inline-block;
+}
+
+article section p {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 0;
+}
+
+article section img {
+	width: 300px;
+	height: 300px;
+    object-fit: cover;
+    object-position: center;
+	border: 10px ridge goldenrod;
+	border-radius: 25px;
+	transition: all linear 300ms;
+	image-rendering: optimizeQuality;
+	background-color: rgba(255, 255, 255, .85);
+}
+
+article:nth-child(odd) section {
+    flex-direction: row-reverse;
+}
+
+article:hover section img {
+    transform: perspective(500px) translate3d(0, 0, 25px);
+	border-color: chocolate;
+}
+
+/* Headers */
+article:first-of-type h2 {
+	font-family: 'Zen Dots';
+}
+
+article:nth-of-type(2) h2 {
+	font-family: 'Berkshire Swash';
+    font-size: 3em;
+    -webkit-text-stroke: 1.25px black;
+}
+
+article:nth-of-type(3) h2 {
+	font-family: "Rialto";
+    -webkit-text-stroke: unset !important;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+}
