@@ -60,7 +60,7 @@ article:nth-child(odd) section {
     flex-direction: row-reverse;
 }
 
-article:hover section img {
+article:hover h2 + section > img {
     transform: perspective(500px) translate3d(0, 0, 25px);
 	border-color: chocolate;
 }
