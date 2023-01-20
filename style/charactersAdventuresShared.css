@@ -23,6 +23,7 @@ article section {
 article .textContainer {
 	display: flex;
 	flex-direction: column;
+	flex-grow: 1;
 }
 
 .textContainer p:first-of-type {
