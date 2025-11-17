@@ -10,25 +10,24 @@
 </head>
 <body>
 	<header>
+		<!-- TODO: Turn this into a reusable component -->
 		<nav>
 			<ul>
 				<li><img src="/images/logo-mspa.png" alt="MSPA logo"></li>
-				<li><a href="index.html" class="active">Home</a></li>
-				<li><a href="/pages/adventures.html">Adventures</a></li>
-				<li><a href="/pages/characters.html">Characters</a></li>
+				<li><a href="index.php" class="active">Home</a></li>
+				<li><a href="/pages/adventures.php">Adventures</a></li>
+				<li><a href="/pages/characters.php">Characters</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<!-- TODO: Remove lorem ipsum placeholder you lazy piece of shit -->
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum molestias excepturi voluptatem placeat qui fuga incidunt obcaecati? Voluptatem, odio debitis iure reprehenderit illo incidunt quos quasi, quia doloremque, ab aliquid!
+		<?php echo "Hello world!" ?>
 	</main>
 
 	<footer>
 		&copy; Midas V, <span class="date"></span> <span class="time"></span>
-		<!-- Want to fuck shit up and get annoying fucking console errors? 
-			 Then place this script tag anywhere else on the page! -->
+		<!-- Don't place anywhere else -->
 		<script type="text/javascript" src="script/date.js"></script>
 	</footer>
 </body>
