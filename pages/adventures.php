@@ -91,10 +91,7 @@
 	</main>
 
 	<footer>
-		&copy; Midas V, <span class="date"></span> <span class="time"></span>
-		<!-- Want to fuck shit up and get annoying fucking console errors? 
-			 Then place this script tag anywhere else on the page! -->
-		<script type="text/javascript" src="../script/date.js"></script>
+		&copy; Midas V, <?= date("d-m-Y H:i") ?>
 	</footer>
 </body>
 </html>

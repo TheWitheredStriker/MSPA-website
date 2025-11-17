@@ -26,9 +26,7 @@
 	</main>
 
 	<footer>
-		&copy; Midas V, <span class="date"></span> <span class="time"></span>
-		<!-- Don't place anywhere else -->
-		<script type="text/javascript" src="script/date.js"></script>
+		&copy; Midas V, <?= date("d-m-Y H:i") ?>
 	</footer>
 </body>
 </html>
